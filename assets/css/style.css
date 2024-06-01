@@ -1,0 +1,169 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("./../../assets/images/bg-img.jpg");
+    background-position: center top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header-top-content {
+    background: #14b8a6;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container {
+    max-width: 60% !important;
+}
+
+.header-title {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#sec-2 {
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+tbody {
+    border-bottom: 1px solid #ddd
+}
+
+td,
+th {
+    text-align: left
+}
+
+td {
+    border-top: 1px solid #ddd;
+    padding: 6px 0
+}
+
+th {
+    font-weight: 400
+}
+
+.input-design {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 16px;
+    width: 100%;
+}
+
+.subscribe {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.logo-img {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.card {
+    border-radius: 0px;
+    border: 0px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.red {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.checkbox-title {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+label.agree-check {
+    width: 485px;
+}
+
+.save-btn {
+    padding: 12px 35px 12px 35px;
+    background: #14b8a6;
+    border: 0px solid #0d9488 !important;
+}
+
+.save-btn:hover {
+    background-color: #10b981;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card {
+        border-radius: 0px;
+        border: 0px;
+        width: 100%;
+    }
+
+    .container {
+        max-width: 100% !important;
+    }
+
+    body {
+        background: none !important;
+    }
+
+    label.agree-check {
+        width: 340px !important;
+    }
+
+    .save-btn {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .header-top-content {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .header-top-content {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 900px) {
+
+    .header-top-content {
+        font-size: 16px;
+    }
+}
